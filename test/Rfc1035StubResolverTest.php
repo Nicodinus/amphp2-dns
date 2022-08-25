@@ -7,9 +7,9 @@ use Amp\Dns\InvalidNameException;
 use Amp\Dns\Record;
 use Amp\Dns\Rfc1035StubResolver;
 use Amp\Loop;
-use Amp\PHPUnit\TestCase;
+use Amp\PHPUnit\AsyncTestCase;
 
-class Rfc1035StubResolverTest extends TestCase
+class Rfc1035StubResolverTest extends AsyncTestCase
 {
     public function testResolveSecondParameterAcceptedValues()
     {

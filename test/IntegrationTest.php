@@ -9,11 +9,11 @@ use Amp\Dns\Record;
 use Amp\Dns\UnixConfigLoader;
 use Amp\Dns\WindowsConfigLoader;
 use Amp\Loop;
-use Amp\PHPUnit\TestCase;
+use Amp\PHPUnit\AsyncTestCase;
 use Amp\Success;
 use PHPUnit\Framework\MockObject\MockObject;
 
-class IntegrationTest extends TestCase
+class IntegrationTest extends AsyncTestCase
 {
     /**
      * @param string $hostname

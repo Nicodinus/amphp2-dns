@@ -5,10 +5,10 @@ namespace Amp\Dns\Test;
 use Amp\Dns\Config;
 use Amp\Dns\ConfigException;
 use Amp\Dns\UnixConfigLoader;
-use Amp\PHPUnit\TestCase;
+use Amp\PHPUnit\AsyncTestCase;
 use function Amp\Promise\wait;
 
-class UnixConfigLoaderTest extends TestCase
+class UnixConfigLoaderTest extends AsyncTestCase
 {
     public function test()
     {

@@ -1,8 +1,6 @@
-build
-composer.lock
-phpunit.xml
-vendor
-.php_cs.cache
-.phpunit.result.cache
-coverage
-composer-require-checker.phar
+/coverage
+/composer.lock
+/vendor
+/.php_cs.cache
+/.phpunit.result.cache
+/.idea

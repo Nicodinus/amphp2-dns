@@ -4,13 +4,13 @@ namespace Amp\Dns\Test;
 
 use Amp\Dns;
 use Amp\Loop;
-use Amp\PHPUnit\TestCase;
+use Amp\PHPUnit\AsyncTestCase;
 use Amp\Promise;
 use LibDNS\Messages\Message;
 use LibDNS\Messages\MessageTypes;
 use LibDNS\Records\QuestionFactory;
 
-abstract class SocketTest extends TestCase
+abstract class SocketTest extends AsyncTestCase
 {
     abstract protected function connect(): Promise;
 

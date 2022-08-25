@@ -5,9 +5,9 @@ namespace Amp\Dns\Test;
 use Amp\Dns\HostLoader;
 use Amp\Dns\Record;
 use Amp\Loop;
-use Amp\PHPUnit\TestCase;
+use Amp\PHPUnit\AsyncTestCase;
 
-class HostLoaderTest extends TestCase
+class HostLoaderTest extends AsyncTestCase
 {
     public function testIgnoresCommentsAndParsesBasicEntry()
     {
